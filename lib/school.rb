@@ -21,8 +21,6 @@ class School
       @roster = @roster.sort
       roster.sort |grade, name|
       
-      end
-      roster
       
      
   end
