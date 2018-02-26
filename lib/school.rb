@@ -18,10 +18,8 @@ class School
   end
   
   def sort
-      @roster = @roster.sort
+    
       roster.sort |grade, name|
-      
-      
      
   end
    
