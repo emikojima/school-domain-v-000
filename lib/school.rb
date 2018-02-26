@@ -1,6 +1,6 @@
 require 'pry'
 class School
-  attr_accessor :roster, :grade
+  attr_accessor :roster
   
   def initialize(new)
     @roster={}
@@ -20,7 +20,7 @@ class School
   def sort
       @roster = @roster.sort
        
-      end
+      
   end
    
      
