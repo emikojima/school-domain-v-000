@@ -19,7 +19,7 @@ class School
   
   def sort
     
-      roster.sort |grade, name|
+      roster.sort 
      
   end
    
