@@ -19,7 +19,8 @@ class School
   
   def sort
       @roster = @roster.sort
-      @roster.values
+     
+     
        binding.pry
       
   end
